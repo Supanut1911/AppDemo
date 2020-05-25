@@ -11,3 +11,7 @@ import Foundation
 protocol sendingDataProtocol {
     func setTitleBack(messageBack: String)
 }
+
+protocol avatarDelegate {
+    func getAvatarInformation(avatarModel: InfomationModel)
+}
