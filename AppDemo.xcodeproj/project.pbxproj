@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1735B730247BC78200F081A1 /* Basic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1735B72F247BC78200F081A1 /* Basic.storyboard */; };
+		1735B732247BC7AD00F081A1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735B731247BC7AD00F081A1 /* FirstViewController.swift */; };
+		1735B734247BC7BA00F081A1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735B733247BC7BA00F081A1 /* SecondViewController.swift */; };
+		1735B736247BC83000F081A1 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735B735247BC83000F081A1 /* Protocols.swift */; };
+		1737C363247626AC00A5B569 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1737C362247626AC00A5B569 /* StepperView.swift */; };
+		1737C365247626BA00A5B569 /* Stepper.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1737C364247626BA00A5B569 /* Stepper.xib */; };
+		1737C367247627B800A5B569 /* StepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1737C366247627B800A5B569 /* StepViewController.swift */; };
 		17847DAF24750296006356C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17847DAE24750296006356C7 /* AppDelegate.swift */; };
 		17847DB124750296006356C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17847DB024750296006356C7 /* SceneDelegate.swift */; };
-		17847DB324750296006356C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17847DB224750296006356C7 /* ViewController.swift */; };
+		17847DB324750296006356C7 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17847DB224750296006356C7 /* HomeVC.swift */; };
 		17847DB624750296006356C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17847DB424750296006356C7 /* Main.storyboard */; };
 		17847DB824750298006356C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17847DB724750298006356C7 /* Assets.xcassets */; };
 		17847DBB24750298006356C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17847DB924750298006356C7 /* LaunchScreen.storyboard */; };
+		17847DDC24751344006356C7 /* SelectPetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17847DDB24751344006356C7 /* SelectPetVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1735B72F247BC78200F081A1 /* Basic.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Basic.storyboard; sourceTree = "<group>"; };
+		1735B731247BC7AD00F081A1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		1735B733247BC7BA00F081A1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1735B735247BC83000F081A1 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		1737C362247626AC00A5B569 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		1737C364247626BA00A5B569 /* Stepper.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Stepper.xib; sourceTree = "<group>"; };
+		1737C366247627B800A5B569 /* StepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepViewController.swift; sourceTree = "<group>"; };
 		17847DAB24750296006356C7 /* AppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17847DAE24750296006356C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17847DB024750296006356C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17847DB224750296006356C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17847DB224750296006356C7 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		17847DB524750296006356C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17847DB724750298006356C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17847DBA24750298006356C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17847DBC24750298006356C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17847DDB24751344006356C7 /* SelectPetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPetVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1735767024791EF70021157D /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				1735B735247BC83000F081A1 /* Protocols.swift */,
+				1735B72F247BC78200F081A1 /* Basic.storyboard */,
+				1735B731247BC7AD00F081A1 /* FirstViewController.swift */,
+				1735B733247BC7BA00F081A1 /* SecondViewController.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		1737C3612476267000A5B569 /* XibToView */ = {
+			isa = PBXGroup;
+			children = (
+				1737C362247626AC00A5B569 /* StepperView.swift */,
+				1737C364247626BA00A5B569 /* Stepper.xib */,
+				1737C366247627B800A5B569 /* StepViewController.swift */,
+			);
+			path = XibToView;
+			sourceTree = "<group>";
+		};
 		17847DA224750296006356C7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +93,13 @@
 		17847DAD24750296006356C7 /* AppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1735767024791EF70021157D /* Basic */,
+				1737C3612476267000A5B569 /* XibToView */,
 				17847DAE24750296006356C7 /* AppDelegate.swift */,
 				17847DB024750296006356C7 /* SceneDelegate.swift */,
-				17847DB224750296006356C7 /* ViewController.swift */,
+				17847DB224750296006356C7 /* HomeVC.swift */,
 				17847DB424750296006356C7 /* Main.storyboard */,
+				17847DDB24751344006356C7 /* SelectPetVC.swift */,
 				17847DB724750298006356C7 /* Assets.xcassets */,
 				17847DB924750298006356C7 /* LaunchScreen.storyboard */,
 				17847DBC24750298006356C7 /* Info.plist */,
@@ -128,6 +168,8 @@
 				17847DBB24750298006356C7 /* LaunchScreen.storyboard in Resources */,
 				17847DB824750298006356C7 /* Assets.xcassets in Resources */,
 				17847DB624750296006356C7 /* Main.storyboard in Resources */,
+				1737C365247626BA00A5B569 /* Stepper.xib in Resources */,
+				1735B730247BC78200F081A1 /* Basic.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17847DB324750296006356C7 /* ViewController.swift in Sources */,
+				1735B734247BC7BA00F081A1 /* SecondViewController.swift in Sources */,
+				17847DB324750296006356C7 /* HomeVC.swift in Sources */,
 				17847DAF24750296006356C7 /* AppDelegate.swift in Sources */,
+				1735B736247BC83000F081A1 /* Protocols.swift in Sources */,
+				1737C367247627B800A5B569 /* StepViewController.swift in Sources */,
+				1737C363247626AC00A5B569 /* StepperView.swift in Sources */,
+				17847DDC24751344006356C7 /* SelectPetVC.swift in Sources */,
 				17847DB124750296006356C7 /* SceneDelegate.swift in Sources */,
+				1735B732247BC7AD00F081A1 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
